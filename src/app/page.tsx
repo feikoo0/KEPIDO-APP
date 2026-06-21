@@ -487,7 +487,7 @@ export default function HomePage() {
     }
     
     message += `🏠 *Dirección de entrega:*\n${favorEntrega.trim()}\n\n`;
-    message += `💵 *Tarifa estimada:*\nA acordar con el chofer (Tarifa base desde $20.00 pesos en Jamay)\n\n`;
+    message += `💵 *Tarifa estimada:*\nA acordar con el chofer (Tarifa base desde $35.00 pesos en Jamay)\n\n`;
     message += `${separator}\n`;
     message += `_Pedido enviado vía KEPIDO App Jamay_`;
 
@@ -1267,7 +1267,7 @@ export default function HomePage() {
 
             <div className="mt-4 flex items-center justify-between border-t border-white/10 pt-3.5">
               <span className="text-[11px] text-emerald-100 font-bold">
-                Tarifa base desde <span className="text-white font-extrabold">$20.00</span>
+                Tarifa base desde <span className="text-white font-extrabold">$35.00</span>
               </span>
               <button 
                 onClick={() => setIsRappiFavorOpen(true)}
@@ -1418,7 +1418,7 @@ export default function HomePage() {
                 <div className="bg-orange-50/50 border border-orange-100 rounded-2xl p-3.5 space-y-1 shadow-sm">
                   <span className="text-[11px] font-bold text-orange-800 block">Tarifa Estimada</span>
                   <p className="text-[10px] text-orange-700 leading-relaxed font-semibold">
-                    La tarifa base de mandados en Jamay inicia en <span className="text-orange-900 font-extrabold">$20.00 pesos</span>. El chofer asignado coordinará el monto final de envío y los costos de los productos al entregártelos.
+                    La tarifa base de mandados en Jamay inicia en <span className="text-orange-900 font-extrabold">$35.00 pesos</span>. El chofer asignado coordinará el monto final de envío y los costos de los productos al entregártelos.
                   </p>
                 </div>
 
