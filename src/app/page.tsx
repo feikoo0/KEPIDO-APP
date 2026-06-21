@@ -174,19 +174,19 @@ export default function HomePage() {
       let matchingTags: string[] = [];
 
       if (hour >= 6 && hour < 12) {
-        title = 'Desayunos para empezar el día ☀️';
+        title = 'Desayunos para empezar el día';
         matchingTags = ['desayunos', 'lonches', 'cafe', 'café', 'baguettes', 'jugos', 'licuados', 'menudo'];
       } else if (hour >= 12 && hour < 17) {
-        title = 'Sugerencias para la Hora de Comer 🍽️';
+        title = 'Sugerencias para la Hora de Comer';
         matchingTags = ['comida', 'almuerzo', 'mariscos', 'pescados', 'china', 'asiática', 'carnes', 'asados', 'cortes', 'sushi'];
       } else if (hour >= 17 && hour < 19) {
-        title = 'Postres y Antojos de la Tarde ☕';
+        title = 'Postres y Antojos de la Tarde';
         matchingTags = ['postres', 'nieves', 'helados', 'crepas', 'dulces', 'cafe', 'café', 'frappes', 'malteadas', 'elotes', 'esquites', 'antojos', 'snacks'];
       } else if (hour >= 19 && hour < 23) {
-        title = '¿Qué cenamos hoy? 🌙';
+        title = '¿Qué cenamos hoy?';
         matchingTags = ['cena', 'tacos', 'hamburguesas', 'pizza', 'sushi', 'alitas', 'boneless'];
       } else {
-        title = 'Antojos Trasnocheros 🕒';
+        title = 'Antojos Trasnocheros';
         matchingTags = ['cena', 'tacos', 'hamburguesas', 'pizza', 'snacks', 'alitas'];
       }
 
