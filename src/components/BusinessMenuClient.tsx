@@ -414,7 +414,7 @@ export default function BusinessMenuClient({ negocio, categorias }: BusinessMenu
             
             <Link href="/" className="active:scale-[0.98] transition-all flex-shrink-0">
               <img 
-                src="/KEPIDO LOGO BLANCO.png" 
+                src="/KEPIDO LOGO BLANCO.webp" 
                 alt="Kepido Logo" 
                 className="h-[38px] w-auto object-contain flex-shrink-0"
               />

@@ -121,7 +121,7 @@ export default function FavoritosPage() {
           <div className="flex items-center gap-2.5 min-w-0">
             <Link href="/" className="flex flex-shrink-0 items-center">
               <img 
-                src="/KEPIDO LOGO BLANCO.png" 
+                src="/KEPIDO LOGO BLANCO.webp" 
                 alt="Kepido Logo" 
                 className="h-[38px] w-auto object-contain flex-shrink-0 cursor-pointer"
               />

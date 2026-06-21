@@ -11,8 +11,8 @@ export const mockNegocios: Negocio[] = [
     delivery_propio: true,
     horario_apertura: '13:00:00',
     horario_cierre: '23:00:00',
-    logo_url: '/foto perfil mazter pizza.jpg',
-    portada_url: '/foto portada mazter pizza.jpg',
+    logo_url: '/foto perfil mazter pizza.webp',
+    portada_url: '/foto portada mazter pizza.webp',
     categoria_principal: 'Pizzas y Hamburguesas',
     activo: true,
     notas_envio: 'Servicio a domicilio gratis en Jamay. Al Batallón $15. Afueras del pueblo $40.',
@@ -47,8 +47,8 @@ export const mockNegocios: Negocio[] = [
     whatsapp: '523921275364',
     horario_apertura: '07:00:00',
     horario_cierre: '15:00:00',
-    logo_url: '/foto perfil nutri deli.png',
-    portada_url: '/foto portada nutri deli.png',
+    logo_url: '/foto perfil nutri deli.webp',
+    portada_url: '/foto portada nutri deli.webp',
     categoria_principal: 'Saludable',
     activo: true,
     notas_envio: 'Morelos #163, Jamay. Servicio a domicilio.',
@@ -69,8 +69,8 @@ export const mockNegocios: Negocio[] = [
     whatsapp: '523921275364', // using a functional WhatsApp contact
     horario_apertura: '10:00:00',
     horario_cierre: '22:00:00',
-    logo_url: '/foto perfil chicho.png',
-    portada_url: '/foto portada chicho.png',
+    logo_url: '/foto perfil chicho.webp',
+    portada_url: '/foto portada chicho.webp',
     categoria_principal: 'Postres y Antojos Dulces',
     activo: true,
     notas_envio: 'Nieve de Garrafa y Café en Jamay. Servicio a domicilio.',
@@ -245,8 +245,8 @@ export const mockNegocios: Negocio[] = [
     whatsapp: '523921009557', // Consolidated central dispatcher
     horario_apertura: '12:30:00',
     horario_cierre: '18:30:00',
-    logo_url: '/foto perfil senador.png',
-    portada_url: '/foto portada el senador.png',
+    logo_url: '/foto perfil senador.webp',
+    portada_url: '/foto portada el senador.webp',
     categoria_principal: 'Mariscos y Carnes',
     activo: true,
     notas_envio: 'Horario: Domingo a Jueves de 12:30 PM a 6:30 PM. Viernes y Sábado de 12:30 PM a 11:30 PM. Especialidades en mariscos y cortes premium.',
@@ -312,8 +312,8 @@ export const mockNegocios: Negocio[] = [
     whatsapp: '523921007410',
     horario_apertura: '17:00:00',
     horario_cierre: '21:30:00',
-    logo_url: '/foto perfil el antojito.png',
-    portada_url: '/foto portada el antojito.png',
+    logo_url: '/foto perfil el antojito.webp',
+    portada_url: '/foto portada el antojito.webp',
     categoria_principal: 'Elotes y Esquites',
     activo: true,
     notas_envio: 'Visitados en Morelos #304, Jamay. Servicio a domicilio de Lunes a Viernes de 5:00 PM a 9:30 PM.',
@@ -336,8 +336,8 @@ export const mockNegocios: Negocio[] = [
     delivery_propio: false,
     horario_apertura: '13:00:00',
     horario_cierre: '22:00:00',
-    logo_url: '/foto perfil roshi.png',
-    portada_url: '/foto portada roshi.png',
+    logo_url: '/foto perfil roshi.webp',
+    portada_url: '/foto portada roshi.webp',
     categoria_principal: 'Sushi',
     activo: true,
     notas_envio: 'Lunes y Jueves: 5:00 PM a 10:00 PM. Viernes a Domingo: 1:00 PM a 4:00 PM y 7:00 PM a 10:00 PM.',
@@ -358,8 +358,8 @@ export const mockNegocios: Negocio[] = [
     delivery_propio: false,
     horario_apertura: '18:00:00',
     horario_cierre: '23:59:00',
-    logo_url: '/foto perfil la libre.png',
-    portada_url: '/foto portada la libre.png',
+    logo_url: '/foto perfil la libre.webp',
+    portada_url: '/foto portada la libre.webp',
     categoria_principal: 'Cortes y Asados',
     activo: true,
     notas_envio: 'Horario: Abierto todos los días de 6:00 PM a 12:00 AM. Especialidades al asador, cortes premium, tacos y papas rellenas.',
@@ -381,8 +381,8 @@ export const mockNegocios: Negocio[] = [
     delivery_propio: false,
     horario_apertura: '16:00:00',
     horario_cierre: '22:00:00',
-    logo_url: '/foto perfil punto 21.png',
-    portada_url: '/foto portada punto 21.png',
+    logo_url: '/foto perfil punto 21.webp',
+    portada_url: '/foto portada punto 21.webp',
     categoria_principal: 'Hamburguesas',
     activo: true,
     notas_envio: 'Solo servicio para llevar. Horario de 4:00 PM a 10:00 PM. Jamay, Jal.',
@@ -404,8 +404,8 @@ export const mockNegocios: Negocio[] = [
     delivery_propio: false,
     horario_apertura: '17:00:00',
     horario_cierre: '23:30:00',
-    logo_url: '/la_barra_63_logo.png',
-    portada_url: '/la_barra_63_cover.png',
+    logo_url: '/la_barra_63_logo.webp',
+    portada_url: '/la_barra_63_cover.webp',
     categoria_principal: 'Hamburguesas y Pizzas',
     activo: true,
     notas_envio: 'Horario: Abierto todos los días de 5:00 PM a 11:30 PM. Snacks, Alitas, Hamburguesas y Pizzas. Servicio de entrega mediante Mandaditos.',
@@ -428,8 +428,8 @@ export const mockNegocios: Negocio[] = [
     delivery_propio: true,
     horario_apertura: '13:00:00',
     horario_cierre: '23:59:00',
-    logo_url: '/casa_d_sofi_logo.png',
-    portada_url: '/casa_d_sofi_cover.png',
+    logo_url: '/casa_d_sofi_logo.webp',
+    portada_url: '/casa_d_sofi_cover.webp',
     categoria_principal: 'Comida Japonesa y Snacks',
     activo: true,
     notas_envio: 'Domingo a Miércoles de 1PM a 5PM y 8PM a 12AM (Solo Delivery). Jueves a Sábado de 1PM a 5PM y 8PM a 12AM (Servicio en Restaurante y Delivery).',
@@ -1572,7 +1572,7 @@ export const mockProductos: Producto[] = [
     descripcion: 'Rosca de arroz con ensalada de surimi.',
     precio: 360.00,
     disponible: true,
-    imagen_url: '/foto portada roshi.png'
+    imagen_url: '/foto portada roshi.webp'
   },
   {
     id: 'p_roshi_clasica',
@@ -1581,7 +1581,7 @@ export const mockProductos: Producto[] = [
     descripcion: 'Rosca de arroz con camarón cocido y ensalada de surimi.',
     precio: 380.00,
     disponible: true,
-    imagen_url: '/foto portada roshi.png'
+    imagen_url: '/foto portada roshi.webp'
   },
   {
     id: 'p_roshi_crunch',
@@ -1593,7 +1593,7 @@ export const mockProductos: Producto[] = [
     destacado: true,
     rating: 4.9,
     total_ratings: 12,
-    imagen_url: '/foto portada roshi.png'
+    imagen_url: '/foto portada roshi.webp'
   },
   {
     id: 'p_roshi_roca',
@@ -1602,7 +1602,7 @@ export const mockProductos: Producto[] = [
     descripcion: 'Rosca de arroz con camarón capeado y aderezo spicy, con ensalada de surimi.',
     precio: 420.00,
     disponible: true,
-    imagen_url: '/foto portada roshi.png'
+    imagen_url: '/foto portada roshi.webp'
   },
   {
     id: 'p_roshi_monchosa',
@@ -1614,7 +1614,7 @@ export const mockProductos: Producto[] = [
     destacado: true,
     rating: 5.0,
     total_ratings: 8,
-    imagen_url: '/foto portada roshi.png'
+    imagen_url: '/foto portada roshi.webp'
   },
 
   // Roshi Rosca de Sushi - Individuales (c_roshi2)
@@ -1625,7 +1625,7 @@ export const mockProductos: Producto[] = [
     descripcion: 'Rosca de arroz con ensalada de surimi.',
     precio: 110.00,
     disponible: true,
-    imagen_url: '/foto perfil roshi.png'
+    imagen_url: '/foto perfil roshi.webp'
   },
   {
     id: 'p_roshi_ind_clasica',
@@ -1634,7 +1634,7 @@ export const mockProductos: Producto[] = [
     descripcion: 'Rosca de arroz con camarón cocido y ensalada de surimi.',
     precio: 113.00,
     disponible: true,
-    imagen_url: '/foto perfil roshi.png'
+    imagen_url: '/foto perfil roshi.webp'
   },
   {
     id: 'p_roshi_ind_crunch',
@@ -1646,7 +1646,7 @@ export const mockProductos: Producto[] = [
     destacado: true,
     rating: 4.8,
     total_ratings: 15,
-    imagen_url: '/foto perfil roshi.png'
+    imagen_url: '/foto perfil roshi.webp'
   },
   {
     id: 'p_roshi_ind_roca',
@@ -1655,7 +1655,7 @@ export const mockProductos: Producto[] = [
     descripcion: 'Rosca de arroz con camarón capeado y aderezo spicy, con ensalada de surimi.',
     precio: 135.00,
     disponible: true,
-    imagen_url: '/foto perfil roshi.png'
+    imagen_url: '/foto perfil roshi.webp'
   },
 
   // Roshi Rosca de Sushi - Roshi Bites (c_roshi3)
@@ -1669,7 +1669,7 @@ export const mockProductos: Producto[] = [
     destacado: true,
     rating: 4.9,
     total_ratings: 14,
-    imagen_url: '/foto roshi bites.png'
+    imagen_url: '/foto roshi bites.webp'
   },
   {
     id: 'p_roshi_bites_jalapeno',
@@ -1678,7 +1678,7 @@ export const mockProductos: Producto[] = [
     descripcion: 'Bolas de arroz empanizado con philadelphia, trocitos de chile jalapeño y pepino.',
     precio: 110.00,
     disponible: true,
-    imagen_url: '/foto roshi bites.png'
+    imagen_url: '/foto roshi bites.webp'
   },
 
   // Roshi Rosca de Sushi - Roshi Bowl (c_roshi4)
@@ -1689,7 +1689,7 @@ export const mockProductos: Producto[] = [
     descripcion: 'Base de arroz con camarón empanizado, philadelphia, aguacate, pepino y zanahoria.',
     precio: 140.00,
     disponible: true,
-    imagen_url: '/foto roshi bowl.png'
+    imagen_url: '/foto roshi bowl.webp'
   },
   {
     id: 'p_roshi_bowl_spicy',
@@ -1701,7 +1701,7 @@ export const mockProductos: Producto[] = [
     destacado: true,
     rating: 4.8,
     total_ratings: 11,
-    imagen_url: '/foto roshi bowl.png'
+    imagen_url: '/foto roshi bowl.webp'
   },
   {
     id: 'p_roshi_bowl_fit',
@@ -1710,7 +1710,7 @@ export const mockProductos: Producto[] = [
     descripcion: 'Base de arroz con ensalada de atún cremosa, elote, aguacate y zanahoria.',
     precio: 115.00,
     disponible: true,
-    imagen_url: '/foto roshi bowl.png'
+    imagen_url: '/foto roshi bowl.webp'
   },
 
   // Roshi Rosca de Sushi - Bebidas (c_roshi5)
@@ -1721,7 +1721,7 @@ export const mockProductos: Producto[] = [
     descripcion: 'Refresco frío a elegir.',
     precio: 22.00,
     disponible: true,
-    imagen_url: '/foto roshi drink.png'
+    imagen_url: '/foto roshi drink.webp'
   },
   {
     id: 'p_roshi_te_frio',
@@ -1730,7 +1730,7 @@ export const mockProductos: Producto[] = [
     descripcion: 'Refrescante té frío de la casa (Refil 1 vez).',
     precio: 50.00,
     disponible: true,
-    imagen_url: '/foto roshi drink.png'
+    imagen_url: '/foto roshi drink.webp'
   },
   {
     id: 'p_roshi_agua_fresca',
@@ -1739,7 +1739,7 @@ export const mockProductos: Producto[] = [
     descripcion: 'Agua fresca natural preparada diariamente.',
     precio: 30.00,
     disponible: true,
-    imagen_url: '/foto roshi drink.png'
+    imagen_url: '/foto roshi drink.webp'
   },
 
   // Asador La Liebre - Botanas (c_libre1)
@@ -1750,7 +1750,7 @@ export const mockProductos: Producto[] = [
     descripcion: 'Papas cortadas al momento y fritas a la perfección.',
     precio: 65.00,
     disponible: true,
-    imagen_url: '/foto portada la libre.png'
+    imagen_url: '/foto portada la libre.webp'
   },
   {
     id: 'p_libre_papas_arregladitas',
@@ -1762,7 +1762,7 @@ export const mockProductos: Producto[] = [
     destacado: true,
     rating: 4.9,
     total_ratings: 12,
-    imagen_url: '/foto portada la libre.png'
+    imagen_url: '/foto portada la libre.webp'
   },
   {
     id: 'p_libre_alitas',
@@ -1771,7 +1771,7 @@ export const mockProductos: Producto[] = [
     descripcion: 'Deliciosas alitas crujientes con salsa a elegir.',
     precio: 105.00,
     disponible: true,
-    imagen_url: '/foto portada la libre.png'
+    imagen_url: '/foto portada la libre.webp'
   },
   {
     id: 'p_libre_mango_hab_fries',
@@ -1783,7 +1783,7 @@ export const mockProductos: Producto[] = [
     destacado: true,
     rating: 4.8,
     total_ratings: 9,
-    imagen_url: '/foto portada la libre.png'
+    imagen_url: '/foto portada la libre.webp'
   },
   {
     id: 'p_libre_guacamole',
@@ -1792,7 +1792,7 @@ export const mockProductos: Producto[] = [
     descripcion: 'Guacamole fresco machacado al momento con totopos.',
     precio: 85.00,
     disponible: true,
-    imagen_url: '/foto portada la libre.png'
+    imagen_url: '/foto portada la libre.webp'
   },
   {
     id: 'p_libre_guacamole_ranchero',
@@ -1801,7 +1801,7 @@ export const mockProductos: Producto[] = [
     descripcion: 'Guacamole fresco con trocitos de cecina asada encima.',
     precio: 140.00,
     disponible: true,
-    imagen_url: '/foto portada la libre.png'
+    imagen_url: '/foto portada la libre.webp'
   },
   {
     id: 'p_libre_aguachile',
@@ -1813,7 +1813,7 @@ export const mockProductos: Producto[] = [
     destacado: true,
     rating: 5.0,
     total_ratings: 16,
-    imagen_url: '/foto portada la libre.png'
+    imagen_url: '/foto portada la libre.webp'
   },
 
   // Asador La Liebre - Gratinados (c_libre2)
@@ -1824,7 +1824,7 @@ export const mockProductos: Producto[] = [
     descripcion: 'Queso fundido con carne asada al carbón, incluye tortillas hechas a mano.',
     precio: 150.00,
     disponible: true,
-    imagen_url: '/foto portada la libre.png'
+    imagen_url: '/foto portada la libre.webp'
   },
   {
     id: 'p_libre_grat_chorizo',
@@ -1833,7 +1833,7 @@ export const mockProductos: Producto[] = [
     descripcion: 'Queso fundido con delicioso chorizo asado, incluye tortillas hechas a mano.',
     precio: 140.00,
     disponible: true,
-    imagen_url: '/foto portada la libre.png'
+    imagen_url: '/foto portada la libre.webp'
   },
   {
     id: 'p_libre_grat_pollo',
@@ -1842,7 +1842,7 @@ export const mockProductos: Producto[] = [
     descripcion: 'Queso fundido con pollo deshebrado, incluye tortillas hechas a mano.',
     precio: 140.00,
     disponible: true,
-    imagen_url: '/foto portada la libre.png'
+    imagen_url: '/foto portada la libre.webp'
   },
   {
     id: 'p_libre_grat_chiztorra',
@@ -1851,7 +1851,7 @@ export const mockProductos: Producto[] = [
     descripcion: 'Queso fundido con chiztorra dorada, incluye tortillas hechas a mano.',
     precio: 140.00,
     disponible: true,
-    imagen_url: '/foto portada la libre.png'
+    imagen_url: '/foto portada la libre.webp'
   },
   {
     id: 'p_libre_grat_cecina',
@@ -1860,7 +1860,7 @@ export const mockProductos: Producto[] = [
     descripcion: 'Queso fundido con cecina asada, incluye tortillas hechas a mano.',
     precio: 150.00,
     disponible: true,
-    imagen_url: '/foto portada la libre.png'
+    imagen_url: '/foto portada la libre.webp'
   },
   {
     id: 'p_libre_grat_arrachera',
@@ -1869,7 +1869,7 @@ export const mockProductos: Producto[] = [
     descripcion: 'Queso fundido con arrachera de cerdo tierna, incluye tortillas hechas a mano.',
     precio: 150.00,
     disponible: true,
-    imagen_url: '/foto portada la libre.png'
+    imagen_url: '/foto portada la libre.webp'
   },
 
   // Asador La Liebre - Papa Rellena (c_libre3)
@@ -1883,7 +1883,7 @@ export const mockProductos: Producto[] = [
     destacado: true,
     rating: 4.9,
     total_ratings: 22,
-    imagen_url: '/foto portada la libre.png'
+    imagen_url: '/foto portada la libre.webp'
   },
 
   // Asador La Liebre - Cortes (c_libre4)
@@ -1894,7 +1894,7 @@ export const mockProductos: Producto[] = [
     descripcion: 'Arrachera tierna a la leña acompañada con un chile asado, papas francesas o gajo.',
     precio: 280.00,
     disponible: true,
-    imagen_url: '/foto portada la libre.png'
+    imagen_url: '/foto portada la libre.webp'
   },
   {
     id: 'p_libre_corte_tbone',
@@ -1903,7 +1903,7 @@ export const mockProductos: Producto[] = [
     descripcion: 'Corte T-Bone a la leña acompañado con un chile asado, papas francesas o gajo.',
     precio: 290.00,
     disponible: true,
-    imagen_url: '/foto portada la libre.png'
+    imagen_url: '/foto portada la libre.webp'
   },
   {
     id: 'p_libre_corte_newyork',
@@ -1912,7 +1912,7 @@ export const mockProductos: Producto[] = [
     descripcion: 'Corte New York a la leña acompañado con un chile asado, papas francesas o gajo.',
     precio: 295.00,
     disponible: true,
-    imagen_url: '/foto portada la libre.png'
+    imagen_url: '/foto portada la libre.webp'
   },
   {
     id: 'p_libre_corte_ribeye',
@@ -1924,7 +1924,7 @@ export const mockProductos: Producto[] = [
     destacado: true,
     rating: 5.0,
     total_ratings: 18,
-    imagen_url: '/foto portada la libre.png'
+    imagen_url: '/foto portada la libre.webp'
   },
 
   // Asador La Liebre - Especiales (c_libre5)
@@ -1935,7 +1935,7 @@ export const mockProductos: Producto[] = [
     descripcion: 'Tortilla de harina grande con queso gratinado, frijoles y carne a elegir, bañada en aderezos.',
     precio: 110.00,
     disponible: true,
-    imagen_url: '/foto portada la libre.png'
+    imagen_url: '/foto portada la libre.webp'
   },
   {
     id: 'p_libre_esp_burrita_envuelta',
@@ -1947,7 +1947,7 @@ export const mockProductos: Producto[] = [
     destacado: true,
     rating: 4.9,
     total_ratings: 15,
-    imagen_url: '/foto portada la libre.png'
+    imagen_url: '/foto portada la libre.webp'
   },
   {
     id: 'p_libre_esp_hamburguesa',
@@ -1956,7 +1956,7 @@ export const mockProductos: Producto[] = [
     descripcion: 'Bollo de hamburguesa con queso fundido, carne preparada con tocino ahumado, aderezo de la casa, lechuga, jitomate y cebolla morada.',
     precio: 135.00,
     disponible: true,
-    imagen_url: '/foto portada la libre.png'
+    imagen_url: '/foto portada la libre.webp'
   },
   {
     id: 'p_libre_esp_lonche',
@@ -1965,7 +1965,7 @@ export const mockProductos: Producto[] = [
     descripcion: 'Pan para lonche dorado con queso fundido y tu elección de carne asada.',
     precio: 95.00,
     disponible: true,
-    imagen_url: '/foto portada la libre.png'
+    imagen_url: '/foto portada la libre.webp'
   },
 
   // Asador La Liebre - Tacos (c_libre6)
@@ -1976,7 +1976,7 @@ export const mockProductos: Producto[] = [
     descripcion: 'Taco elaborado con tortilla hecha a mano y la carne de tu elección.',
     precio: 32.00,
     disponible: true,
-    imagen_url: '/foto portada la libre.png'
+    imagen_url: '/foto portada la libre.webp'
   },
 
   // Asador La Liebre - Quecas (c_libre7)
@@ -1987,7 +1987,7 @@ export const mockProductos: Producto[] = [
     descripcion: 'Quesadilla en tortilla de maíz o harina con queso y tu elección de carne.',
     precio: 40.00,
     disponible: true,
-    imagen_url: '/foto portada la libre.png'
+    imagen_url: '/foto portada la libre.webp'
   },
 
   // Asador La Liebre - Bebidas (c_libre8)
@@ -2063,7 +2063,7 @@ export const mockProductos: Producto[] = [
     descripcion: 'Hamburguesa clásica con carne de res, queso amarillo, verdura fresca y papas fritas.',
     precio: 90.00,
     disponible: true,
-    imagen_url: '/foto portada punto 21.png'
+    imagen_url: '/foto portada punto 21.webp'
   },
   {
     id: 'p_punto_hamb_especial',
@@ -2075,7 +2075,7 @@ export const mockProductos: Producto[] = [
     destacado: true,
     rating: 4.8,
     total_ratings: 12,
-    imagen_url: '/foto portada punto 21.png'
+    imagen_url: '/foto portada punto 21.webp'
   },
   {
     id: 'p_punto_hamb_suprema',
@@ -2087,7 +2087,7 @@ export const mockProductos: Producto[] = [
     destacado: true,
     rating: 4.9,
     total_ratings: 16,
-    imagen_url: '/foto portada punto 21.png'
+    imagen_url: '/foto portada punto 21.webp'
   },
   {
     id: 'p_punto_hamb_arrachera',
@@ -2096,7 +2096,7 @@ export const mockProductos: Producto[] = [
     descripcion: 'Jugosa carne de arrachera de res, queso amarillo, verdura y papas.',
     precio: 115.00,
     disponible: true,
-    imagen_url: '/foto portada punto 21.png'
+    imagen_url: '/foto portada punto 21.webp'
   },
   {
     id: 'p_punto_hamb_pollo_crujiente',
@@ -2105,7 +2105,7 @@ export const mockProductos: Producto[] = [
     descripcion: 'Tiras de pollo crujiente empanizado, queso amarillo, verdura y papas.',
     precio: 115.00,
     disponible: true,
-    imagen_url: '/foto portada punto 21.png'
+    imagen_url: '/foto portada punto 21.webp'
   },
   {
     id: 'p_punto_hamb_boneless',
@@ -2114,7 +2114,7 @@ export const mockProductos: Producto[] = [
     descripcion: 'Trocitos de pollo natural o bañados con tu salsa favorita, queso amarillo, verdura y papas.',
     precio: 115.00,
     disponible: true,
-    imagen_url: '/foto portada punto 21.png'
+    imagen_url: '/foto portada punto 21.webp'
   },
   {
     id: 'p_punto_hamb_pollo_extreme',
@@ -2123,7 +2123,7 @@ export const mockProductos: Producto[] = [
     descripcion: 'Tiras de pollo crujiente, aros de cebolla, dedos de queso gratinados, queso amarillo, verdura fresca y papas.',
     precio: 139.00,
     disponible: true,
-    imagen_url: '/foto portada punto 21.png'
+    imagen_url: '/foto portada punto 21.webp'
   },
 
   // Punto 21 - Snacks (c_punto2)
@@ -2134,7 +2134,7 @@ export const mockProductos: Producto[] = [
     descripcion: '10 deliciosas alitas bañadas en tu salsa favorita.',
     precio: 149.00,
     disponible: true,
-    imagen_url: '/foto portada punto 21.png'
+    imagen_url: '/foto portada punto 21.webp'
   },
   {
     id: 'p_punto_snack_alitas_1k',
@@ -2143,7 +2143,7 @@ export const mockProductos: Producto[] = [
     descripcion: '1 kg de deliciosas alitas crujientes con salsa a elegir.',
     precio: 289.00,
     disponible: true,
-    imagen_url: '/foto portada punto 21.png'
+    imagen_url: '/foto portada punto 21.webp'
   },
   {
     id: 'p_punto_snack_boneless_200',
@@ -2152,7 +2152,7 @@ export const mockProductos: Producto[] = [
     descripcion: '200 gramos de trozos de pechuga de pollo empanizados y bañados en salsa.',
     precio: 95.00,
     disponible: true,
-    imagen_url: '/foto portada punto 21.png'
+    imagen_url: '/foto portada punto 21.webp'
   },
   {
     id: 'p_punto_snack_boneless_350',
@@ -2161,7 +2161,7 @@ export const mockProductos: Producto[] = [
     descripcion: '350 gramos de jugosos boneless crujientes con salsa a elegir.',
     precio: 149.00,
     disponible: true,
-    imagen_url: '/foto portada punto 21.png'
+    imagen_url: '/foto portada punto 21.webp'
   },
   {
     id: 'p_punto_snack_aros_200',
@@ -2170,7 +2170,7 @@ export const mockProductos: Producto[] = [
     descripcion: '200 gramos de aros de cebolla empanizados crujientes.',
     precio: 95.00,
     disponible: true,
-    imagen_url: '/foto portada punto 21.png'
+    imagen_url: '/foto portada punto 21.webp'
   },
   {
     id: 'p_punto_snack_aros_350',
@@ -2179,7 +2179,7 @@ export const mockProductos: Producto[] = [
     descripcion: '350 gramos de crujientes aros de cebolla.',
     precio: 135.00,
     disponible: true,
-    imagen_url: '/foto portada punto 21.png'
+    imagen_url: '/foto portada punto 21.webp'
   },
   {
     id: 'p_punto_snack_dedos_6',
@@ -2188,7 +2188,7 @@ export const mockProductos: Producto[] = [
     descripcion: '6 piezas de deliciosos dedos de queso mozzarella derretidos y empanizados.',
     precio: 95.00,
     disponible: true,
-    imagen_url: '/foto portada punto 21.png'
+    imagen_url: '/foto portada punto 21.webp'
   },
   {
     id: 'p_punto_snack_dedos_11',
@@ -2197,7 +2197,7 @@ export const mockProductos: Producto[] = [
     descripcion: '11 piezas de jugosos dedos de queso mozzarella crujientes.',
     precio: 169.00,
     disponible: true,
-    imagen_url: '/foto portada punto 21.png'
+    imagen_url: '/foto portada punto 21.webp'
   },
   {
     id: 'p_punto_snack_francesa_200',
@@ -2206,7 +2206,7 @@ export const mockProductos: Producto[] = [
     descripcion: '200 gramos de papas a la francesa sazonadas.',
     precio: 50.00,
     disponible: true,
-    imagen_url: '/foto portada punto 21.png'
+    imagen_url: '/foto portada punto 21.webp'
   },
   {
     id: 'p_punto_snack_francesa_350',
@@ -2215,7 +2215,7 @@ export const mockProductos: Producto[] = [
     descripcion: '350 gramos de papas francesas calientes.',
     precio: 70.00,
     disponible: true,
-    imagen_url: '/foto portada punto 21.png'
+    imagen_url: '/foto portada punto 21.webp'
   },
   {
     id: 'p_punto_snack_gajo_200',
@@ -2224,7 +2224,7 @@ export const mockProductos: Producto[] = [
     descripcion: '200 gramos de papas gajo sazonadas con especias.',
     precio: 50.00,
     disponible: true,
-    imagen_url: '/foto portada punto 21.png'
+    imagen_url: '/foto portada punto 21.webp'
   },
   {
     id: 'p_punto_snack_gajo_350',
@@ -2233,7 +2233,7 @@ export const mockProductos: Producto[] = [
     descripcion: '350 gramos de crujientes papas gajo.',
     precio: 70.00,
     disponible: true,
-    imagen_url: '/foto portada punto 21.png'
+    imagen_url: '/foto portada punto 21.webp'
   },
   // La Barra 63 - Alitas
   {
@@ -2243,7 +2243,7 @@ export const mockProductos: Producto[] = [
     descripcion: '450 gramos de alitas fritas, crujientes y bañadas en la salsa de tu elección.',
     precio: 100.00,
     disponible: true,
-    imagen_url: '/la_barra_63_cover.png'
+    imagen_url: '/la_barra_63_cover.webp'
   },
   {
     id: 'p_lb_alitas_900',
@@ -2252,7 +2252,7 @@ export const mockProductos: Producto[] = [
     descripcion: '900 gramos de alitas fritas, crujientes y bañadas en la salsa de tu elección.',
     precio: 200.00,
     disponible: true,
-    imagen_url: '/la_barra_63_cover.png'
+    imagen_url: '/la_barra_63_cover.webp'
   },
 
   // La Barra 63 - Snacks
@@ -2263,7 +2263,7 @@ export const mockProductos: Producto[] = [
     descripcion: '5 piezas de tiras de pechuga crujientes estilo KFC.',
     precio: 120.00,
     disponible: true,
-    imagen_url: '/la_barra_63_cover.png'
+    imagen_url: '/la_barra_63_cover.webp'
   },
   {
     id: 'p_lb_ensalada_pollo',
@@ -2272,7 +2272,7 @@ export const mockProductos: Producto[] = [
     descripcion: 'Fresca ensalada mixta de vegetales de la casa acompañada con tiras de pollo.',
     precio: 80.00,
     disponible: true,
-    imagen_url: '/la_barra_63_cover.png'
+    imagen_url: '/la_barra_63_cover.webp'
   },
   {
     id: 'p_lb_nuggets_10',
@@ -2281,7 +2281,7 @@ export const mockProductos: Producto[] = [
     descripcion: '10 piezas de nuggets de pollo doraditos.',
     precio: 90.00,
     disponible: true,
-    imagen_url: '/la_barra_63_cover.png'
+    imagen_url: '/la_barra_63_cover.webp'
   },
   {
     id: 'p_lb_nuggets_20',
@@ -2290,7 +2290,7 @@ export const mockProductos: Producto[] = [
     descripcion: '20 piezas de deliciosos nuggets de pollo doraditos.',
     precio: 180.00,
     disponible: true,
-    imagen_url: '/la_barra_63_cover.png'
+    imagen_url: '/la_barra_63_cover.webp'
   },
   {
     id: 'p_lb_boneless_7',
@@ -2299,7 +2299,7 @@ export const mockProductos: Producto[] = [
     descripcion: '7 piezas de pechuga de pollo deshuesada, crujientes por fuera y jugosos por dentro, bañados en tu salsa favorita.',
     precio: 100.00,
     disponible: true,
-    imagen_url: '/la_barra_63_cover.png'
+    imagen_url: '/la_barra_63_cover.webp'
   },
   {
     id: 'p_lb_boneless_14',
@@ -2308,7 +2308,7 @@ export const mockProductos: Producto[] = [
     descripcion: '14 piezas de tiernos y crujientes trozos de pechuga de pollo deshuesada bañados en la salsa de tu elección.',
     precio: 200.00,
     disponible: true,
-    imagen_url: '/la_barra_63_cover.png'
+    imagen_url: '/la_barra_63_cover.webp'
   },
   {
     id: 'p_lb_dedos_queso_6',
@@ -2317,7 +2317,7 @@ export const mockProductos: Producto[] = [
     descripcion: '6 dedos de queso mozzarella empanizados y fritos.',
     precio: 90.00,
     disponible: true,
-    imagen_url: '/la_barra_63_cover.png'
+    imagen_url: '/la_barra_63_cover.webp'
   },
   {
     id: 'p_lb_dedos_queso_12',
@@ -2326,7 +2326,7 @@ export const mockProductos: Producto[] = [
     descripcion: '12 deliciosos dedos de queso mozzarella doraditos.',
     precio: 180.00,
     disponible: true,
-    imagen_url: '/la_barra_63_cover.png'
+    imagen_url: '/la_barra_63_cover.webp'
   },
   {
     id: 'p_lb_aros_cebolla_10',
@@ -2335,7 +2335,7 @@ export const mockProductos: Producto[] = [
     descripcion: '10 crujientes aros de cebolla empanizados.',
     precio: 90.00,
     disponible: true,
-    imagen_url: '/la_barra_63_cover.png'
+    imagen_url: '/la_barra_63_cover.webp'
   },
   {
     id: 'p_lb_aros_cebolla_20',
@@ -2344,7 +2344,7 @@ export const mockProductos: Producto[] = [
     descripcion: '20 deliciosos y crujientes aros de cebolla empanizados.',
     precio: 180.00,
     disponible: true,
-    imagen_url: '/la_barra_63_cover.png'
+    imagen_url: '/la_barra_63_cover.webp'
   },
   {
     id: 'p_lb_papas_francesa',
@@ -2353,7 +2353,7 @@ export const mockProductos: Producto[] = [
     descripcion: 'Porción clásica de papas fritas doraditas.',
     precio: 60.00,
     disponible: true,
-    imagen_url: '/la_barra_63_cover.png'
+    imagen_url: '/la_barra_63_cover.webp'
   },
   {
     id: 'p_lb_papas_gajo',
@@ -2362,7 +2362,7 @@ export const mockProductos: Producto[] = [
     descripcion: 'Papas gajo sazonadas. Puedes seleccionarlas sencillas o preparadas estilo Cheddar Tocino, Parmesano o Ajo.',
     precio: 70.00,
     disponible: true,
-    imagen_url: '/la_barra_63_cover.png'
+    imagen_url: '/la_barra_63_cover.webp'
   },
 
   // La Barra 63 - Hamburguesas
@@ -2373,7 +2373,7 @@ export const mockProductos: Producto[] = [
     descripcion: 'Hamburguesa con carne de res. Elige el estilo: Sencilla, Tuta o Arrolladora.',
     precio: 70.00,
     disponible: true,
-    imagen_url: '/la_barra_63_cover.png'
+    imagen_url: '/la_barra_63_cover.webp'
   },
   {
     id: 'p_lb_burger_pollo',
@@ -2382,7 +2382,7 @@ export const mockProductos: Producto[] = [
     descripcion: 'Hamburguesa con pechuga de pollo. Elige el estilo: Sencilla, Tuta o Arrolladora.',
     precio: 70.00,
     disponible: true,
-    imagen_url: '/la_barra_63_cover.png'
+    imagen_url: '/la_barra_63_cover.webp'
   },
   {
     id: 'p_lb_burger_kfc',
@@ -2391,7 +2391,7 @@ export const mockProductos: Producto[] = [
     descripcion: 'Hamburguesa con crujiente pollo estilo KFC. Elige el estilo: Sencilla, Tuta o Arrolladora.',
     precio: 80.00,
     disponible: true,
-    imagen_url: '/la_barra_63_cover.png'
+    imagen_url: '/la_barra_63_cover.webp'
   },
   {
     id: 'p_lb_burger_arrachera',
@@ -2400,7 +2400,7 @@ export const mockProductos: Producto[] = [
     descripcion: 'Hamburguesa con carne de arrachera seleccionada. Elige el estilo: Sencilla, Tuta o Arrolladora.',
     precio: 80.00,
     disponible: true,
-    imagen_url: '/la_barra_63_cover.png'
+    imagen_url: '/la_barra_63_cover.webp'
   },
   {
     id: 'p_lb_burger_seloin',
@@ -2409,7 +2409,7 @@ export const mockProductos: Producto[] = [
     descripcion: 'Hamburguesa con carne selecta de Sirloin. Elige el estilo: Sencilla, Tuta o Arrolladora.',
     precio: 80.00,
     disponible: true,
-    imagen_url: '/la_barra_63_cover.png'
+    imagen_url: '/la_barra_63_cover.webp'
   },
 
   // La Barra 63 - Pizzas
@@ -2420,7 +2420,7 @@ export const mockProductos: Producto[] = [
     descripcion: 'Pizza individual con abundante carne al pastor, piña dulce, cebolla, cilantro fresco, limón y nuestra salsa especial chipotle.',
     precio: 100.00,
     disponible: true,
-    imagen_url: '/la_barra_63_cover.png'
+    imagen_url: '/la_barra_63_cover.webp'
   },
   {
     id: 'p_lb_pizza_barra_63',
@@ -2429,7 +2429,7 @@ export const mockProductos: Producto[] = [
     descripcion: 'Pizza individual de la casa con pepperoni, carne molida selecta, pimiento morrón verde, aceitunas negras y salsa catsup.',
     precio: 100.00,
     disponible: true,
-    imagen_url: '/la_barra_63_cover.png'
+    imagen_url: '/la_barra_63_cover.webp'
   },
   // Casa D' Sofi - Especialidades
   {
@@ -2439,7 +2439,7 @@ export const mockProductos: Producto[] = [
     descripcion: 'Caldo eterno, fideo casero, cerdo glaseado, huevo ajitama, germinado y espinaca.',
     precio: 155.00,
     disponible: true,
-    imagen_url: '/casa_d_sofi_cover.png'
+    imagen_url: '/casa_d_sofi_cover.webp'
   },
   {
     id: 'p_ds_camaron',
@@ -2448,7 +2448,7 @@ export const mockProductos: Producto[] = [
     descripcion: 'Caldo de camarón, miso y crema de cacahuate, fideo casero, elote tatemado.',
     precio: 170.00,
     disponible: true,
-    imagen_url: '/casa_d_sofi_cover.png'
+    imagen_url: '/casa_d_sofi_cover.webp'
   },
   {
     id: 'p_ds_quesadilla',
@@ -2457,7 +2457,7 @@ export const mockProductos: Producto[] = [
     descripcion: 'Rellena de proteína a elegir, fritas y glaseadas en salsa de soya y miel de ajos.',
     precio: 40.00,
     disponible: true,
-    imagen_url: '/casa_d_sofi_cover.png'
+    imagen_url: '/casa_d_sofi_cover.webp'
   },
   {
     id: 'p_ds_karaage',
@@ -2466,7 +2466,7 @@ export const mockProductos: Producto[] = [
     descripcion: 'Alitas de pollo marinadas, fritas y glaseadas en salsa de soya y miel de ajos.',
     precio: 80.00,
     disponible: true,
-    imagen_url: '/casa_d_sofi_cover.png'
+    imagen_url: '/casa_d_sofi_cover.webp'
   },
   // Casa D' Sofi - Bebidas
   {
@@ -2476,7 +2476,7 @@ export const mockProductos: Producto[] = [
     descripcion: 'Refrescante té helado de jazmín natural de la casa.',
     precio: 25.00,
     disponible: true,
-    imagen_url: '/casa_d_sofi_cover.png'
+    imagen_url: '/casa_d_sofi_cover.webp'
   },
   {
     id: 'p_ds_refresco',
@@ -2485,7 +2485,7 @@ export const mockProductos: Producto[] = [
     descripcion: 'El clásico refresco frío de tu elección.',
     precio: 30.00,
     disponible: true,
-    imagen_url: '/casa_d_sofi_cover.png'
+    imagen_url: '/casa_d_sofi_cover.webp'
   }
 ];
 
@@ -4080,7 +4080,7 @@ export const mockRefrescosSabores2L = ['Coca Cola', 'Fresca', 'Sidral Mundet'];
 export const mockPromociones: Promocion[] = [
   {
     id: 'promo-1',
-    imagen_url: '/foto portada mazter pizza.jpg',
+    imagen_url: '/foto portada mazter pizza.webp',
     titulo: '¡Mazter Pizza!',
     descripcion: 'Pizzas al horno de piedra con ingredientes premium y sabor único. ¡Haz tu pedido por WhatsApp hoy mismo!',
     negocio_slug: 'mazter-pizza',
@@ -4088,7 +4088,7 @@ export const mockPromociones: Promocion[] = [
   },
   {
     id: 'promo-2',
-    imagen_url: '/foto portada el senador.png',
+    imagen_url: '/foto portada el senador.webp',
     titulo: 'Restaurante Bar El Senador',
     descripcion: 'Lo mejor en mariscos y filetes de la región de Jamay. Sabores tradicionales que deleitan.',
     negocio_slug: 'el-senador',

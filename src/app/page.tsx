@@ -34,17 +34,17 @@ const DeliveryMotoIcon = ({ className = '', size = 15.5 }: { className?: string;
 );
 
 const categoryChips = [
-  { id: 'tacos', label: 'Tacos', icon: '/tacos.png' },
-  { id: 'hamburguesas', label: 'Hamburguesas', icon: '/hamburguesas.png' },
-  { id: 'pizza', label: 'Pizza', icon: '/pizza.png' },
-  { id: 'postres', label: 'Postres', icon: '/postres.png' },
-  { id: 'mariscos', label: 'Mariscos', icon: '/mariscos.png' },
-  { id: 'tortas', label: 'Tortas', icon: '/tortas.png' },
-  { id: 'cafe', label: 'Café y Bebidas', icon: '/cafe.png' },
-  { id: 'alitas', label: 'Alitas y Snacks', icon: '/alitas.png' },
-  { id: 'pollo', label: 'Pollo', icon: '/pollo.png' },
-  { id: 'carnes', label: 'Carnes y Asados', icon: '/carnes.png' },
-  { id: 'sushi', label: 'Sushi', icon: '/sushi.png' }
+  { id: 'tacos', label: 'Tacos', icon: '/tacos.webp' },
+  { id: 'hamburguesas', label: 'Hamburguesas', icon: '/hamburguesas.webp' },
+  { id: 'pizza', label: 'Pizza', icon: '/pizza.webp' },
+  { id: 'postres', label: 'Postres', icon: '/postres.webp' },
+  { id: 'mariscos', label: 'Mariscos', icon: '/mariscos.webp' },
+  { id: 'tortas', label: 'Tortas', icon: '/tortas.webp' },
+  { id: 'cafe', label: 'Café y Bebidas', icon: '/cafe.webp' },
+  { id: 'alitas', label: 'Alitas y Snacks', icon: '/alitas.webp' },
+  { id: 'pollo', label: 'Pollo', icon: '/pollo.webp' },
+  { id: 'carnes', label: 'Carnes y Asados', icon: '/carnes.webp' },
+  { id: 'sushi', label: 'Sushi', icon: '/sushi.webp' }
 ];
 
 const categoryTagMap: Record<string, string[]> = {
@@ -233,7 +233,7 @@ export default function HomePage() {
       const promos = await getPromociones();
       const appPromo: Promocion = {
         id: 'promo_registro_negocios',
-        imagen_url: '/ANUNCIA.png?v=3',
+        imagen_url: '/ANUNCIA.webp?v=3',
         titulo: '¡Aumenta tus ventas!',
         descripcion: 'Pública GRATIS tu negocio en nuestra app.',
         activo: true
@@ -587,7 +587,7 @@ export default function HomePage() {
         <div className="flex items-center justify-between gap-3 pt-1">
           <div className="flex items-center gap-2.5 min-w-0">
             <img 
-              src="/KEPIDO LOGO BLANCO.png" 
+              src="/KEPIDO LOGO BLANCO.webp" 
               alt="Kepido Logo" 
               className="h-[38px] w-auto object-contain flex-shrink-0"
             />
@@ -1256,7 +1256,7 @@ export default function HomePage() {
               </div>
               <div className="w-20 h-20 rounded-2xl border-2 border-white/20 shadow-lg flex-shrink-0 overflow-hidden bg-emerald-900/30">
                 <img 
-                  src="/repartidor.png" 
+                  src="/repartidor.webp" 
                   alt="Repartidor KEPIDO" 
                   className="w-full h-full object-cover object-top animate-fade-in"
                 />
@@ -1318,7 +1318,7 @@ export default function HomePage() {
               {/* Header Portada Image with fade-out white gradient at the bottom */}
               <div className="relative h-[160px] w-full bg-slate-100 flex-shrink-0">
                 <img 
-                  src="/repartidor.png" 
+                  src="/repartidor.webp" 
                   alt="Repartidor KEPIDO" 
                   className="w-full h-full object-cover object-top"
                 />
