@@ -15,14 +15,34 @@ export async function generateMetadata({ params }: PageProps) {
   
   if (!data) {
     return {
-      title: 'Negocio No Encontrado - Rappi Jamay',
+      title: 'Negocio No Encontrado - Kepido',
       description: 'El negocio que buscas no existe o no está activo en Jamay.'
     };
   }
 
+  const shareImage = data.negocio.portada_url || data.negocio.logo_url || '/KEPIDO LOGO.webp';
+
   return {
     title: `${data.negocio.nombre} - Menú Digital en Jamay`,
-    description: `Ordena directo al WhatsApp de ${data.negocio.nombre} en Jamay. Explora ${data.negocio.categoria_principal}, personaliza tu pedido y recíbelo por delivery o pasa a recoger.`
+    description: `Ordena directo al WhatsApp de ${data.negocio.nombre} en Jamay. Explora ${data.negocio.categoria_principal}, personaliza tu pedido y recíbelo por delivery o pasa a recoger.`,
+    openGraph: {
+      title: `${data.negocio.nombre} - Menú Digital en Jamay`,
+      description: `Explora el menú de ${data.negocio.nombre} en Jamay y ordena directamente por WhatsApp.`,
+      url: `https://kepido.vercel.app/${slug}`,
+      images: [
+        {
+          url: shareImage,
+          alt: data.negocio.nombre,
+        }
+      ],
+      type: "website",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${data.negocio.nombre} - Menú Digital en Jamay`,
+      description: `Explora el menú de ${data.negocio.nombre} en Jamay y ordena por WhatsApp.`,
+      images: [shareImage],
+    }
   };
 }
 
