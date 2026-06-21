@@ -535,15 +535,23 @@ export default function HomePage() {
     return matchesSearch && matchesCategory;
   });
 
-  // Sorting: Apply active sort filters, then open-first
+  // Sorting: Open-first always, then apply active sort filters
   const sorted = [...filtered].sort((a, b) => {
-    // Priority sort by "Mejor calificados"
+    const aOpen = checkOpen(a.horario_apertura, a.horario_cierre, a.slug);
+    const bOpen = checkOpen(b.horario_apertura, b.horario_cierre, b.slug);
+    
+    // Absolute priority: open first, closed last
+    if (aOpen && !bOpen) return -1;
+    if (!aOpen && bOpen) return 1;
+
+    // If both have same open status, sort by selected criteria:
+    // 1. Sort by "Mejor calificados"
     if (activeFilters.has('mejor_calificados')) {
       const diff = (b.rating || 0) - (a.rating || 0);
       if (diff !== 0) return diff;
     }
 
-    // Priority sort by "Más rápido" (parse "30-40 min" → take first number)
+    // 2. Sort by "Más rápido" (parse "30-40 min" → take first number)
     if (activeFilters.has('mas_rapido')) {
       const parseTime = (t?: string) => {
         if (!t) return 999;
@@ -554,17 +562,19 @@ export default function HomePage() {
       if (diff !== 0) return diff;
     }
 
-    // Default: open first, closed last
-    const aOpen = checkOpen(a.horario_apertura, a.horario_cierre, a.slug);
-    const bOpen = checkOpen(b.horario_apertura, b.horario_cierre, b.slug);
-    if (aOpen && !bOpen) return -1;
-    if (!aOpen && bOpen) return 1;
     return 0;
   });
 
-  // Top 10 places sorted by rating (descending)
+  // Top 10 places: open first, then sorted by rating (descending)
   const topTenBusinesses = [...businesses]
-    .sort((a, b) => (b.rating || 0) - (a.rating || 0))
+    .sort((a, b) => {
+      const aOpen = checkOpen(a.horario_apertura, a.horario_cierre, a.slug);
+      const bOpen = checkOpen(b.horario_apertura, b.horario_cierre, b.slug);
+      if (aOpen && !bOpen) return -1;
+      if (!aOpen && bOpen) return 1;
+      // If both are open or both closed, sort by rating
+      return (b.rating || 0) - (a.rating || 0);
+    })
     .slice(0, 10);
 
   // Global search for products based on searchTerm (if not empty)
