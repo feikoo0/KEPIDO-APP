@@ -585,17 +585,19 @@ export default function HomePage() {
       <header className="bg-[#1947c7] sticky top-0 z-30 px-5 pt-5 pb-3 space-y-3">
         {/* Row 1: Logo, Address Selector & Cart Button */}
         <div className="flex items-center justify-between gap-3 pt-1">
-          <div className="flex items-center gap-2.5 min-w-0">
-            <img 
-              src="/KEPIDO LOGO BLANCO.webp" 
-              alt="Kepido Logo" 
-              className="h-[38px] w-auto object-contain flex-shrink-0"
-            />
-            
+          {/* Logo on the Left */}
+          <img 
+            src="/KEPIDO LOGO BLANCO.webp" 
+            alt="Kepido Logo" 
+            className="h-[38px] w-auto object-contain flex-shrink-0"
+          />
+          
+          {/* Address & Cart on the Right */}
+          <div className="flex items-center gap-2 min-w-0 justify-end flex-1">
             {/* Client Address Selector (Compact, Premium design on Orange) */}
             <div 
               onClick={() => setIsAddressModalOpen(true)}
-              className="flex items-center gap-1.5 text-white cursor-pointer group bg-white/15 border border-white/10 hover:bg-white/20 rounded-lg py-1 px-2.5 transition-all min-w-0 max-w-[145px] sm:max-w-[200px]"
+              className="flex items-center gap-1.5 text-white cursor-pointer group bg-white/15 border border-white/10 hover:bg-white/20 rounded-lg py-1 px-2.5 transition-all min-w-0 max-w-[145px] sm:max-w-[210px] flex-shrink"
             >
               <MapPin size={13} className="text-white flex-shrink-0" />
               <span className="text-[12.5px] font-bold text-white group-hover:text-white/95 transition-colors truncate">
@@ -603,21 +605,21 @@ export default function HomePage() {
               </span>
               <ChevronDown size={11} className="text-white/80 flex-shrink-0" />
             </div>
+            
+            {/* Cart Icon trigger */}
+            {cart.items.length > 0 && (
+              <button 
+                onClick={() => setIsCartOpen(true)}
+                className="relative p-2 bg-white/15 text-white border border-white/10 rounded-xl hover:bg-white/20 transition-colors cursor-pointer flex-shrink-0"
+                aria-label="Ver carrito"
+              >
+                <ShoppingCart size={18} />
+                <span className="absolute -top-1.5 -right-1.5 bg-red-500 text-white text-[10px] font-bold w-4.5 h-4.5 rounded-full flex items-center justify-center animate-pulse-slow">
+                  {cart.items.reduce((sum, item) => sum + item.cantidad, 0)}
+                </span>
+              </button>
+            )}
           </div>
-          
-          {/* Cart Icon trigger */}
-          {cart.items.length > 0 && (
-            <button 
-              onClick={() => setIsCartOpen(true)}
-              className="relative p-2 bg-white/15 text-white border border-white/10 rounded-xl hover:bg-white/20 transition-colors cursor-pointer flex-shrink-0"
-              aria-label="Ver carrito"
-            >
-              <ShoppingCart size={18} />
-              <span className="absolute -top-1.5 -right-1.5 bg-red-500 text-white text-[10px] font-bold w-4.5 h-4.5 rounded-full flex items-center justify-center animate-pulse-slow">
-                {cart.items.reduce((sum, item) => sum + item.cantidad, 0)}
-              </span>
-            </button>
-          )}
         </div>
 
         {/* Row 4: Big Search Input */}
